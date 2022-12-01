@@ -1,0 +1,8 @@
+com/redhat/training/payments/connection/PaymentsConnectionFactory.class
+com/redhat/training/payments/Application.class
+com/redhat/training/payments/model/Payment.class
+com/redhat/training/payments/processor/InvalidEmailException.class
+com/redhat/training/payments/route/PaymentRouteBuilder.class
+com/redhat/training/payments/transaction/PaymentsTransactionManager.class
+com/redhat/training/payments/transaction/PaymentsTransactionPolicy.class
+com/redhat/training/payments/processor/NotificationProcessor.class

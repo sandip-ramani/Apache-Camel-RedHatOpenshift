@@ -1,0 +1,5 @@
+com/redhat/training/payslipvalidator/Application.class
+com/redhat/training/payslipvalidator/processor/WrongTotalPayslipCalculationException.class
+com/redhat/training/payslipvalidator/processor/AmountProcessor.class
+com/redhat/training/payslipvalidator/processor/PriceProcessor.class
+com/redhat/training/payslipvalidator/route/PayslipValidationRouteBuilder.class

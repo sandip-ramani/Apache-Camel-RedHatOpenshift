@@ -1,0 +1,16 @@
+com/redhat/training/messaging/OrderLogRouteBuilder.class
+com/redhat/training/messaging/Application$OrderProducer.class
+com/redhat/training/messaging/Application.class
+com/redhat/training/messaging/SoapRouteBuilder.class
+com/redhat/training/carbonfootprintservice/CarbonFootprintResponse.class
+com/redhat/training/messaging/JmsRouteBuilder.class
+com/redhat/training/carbonfootprintservice/ObjectFactory.class
+com/redhat/training/carbonfootprintservice/CarbonFootprintEndpointService.class
+com/redhat/training/messaging/MessagingConnectionFactory.class
+com/redhat/training/carbonfootprintservice/CarbonFootprintEndpoint.class
+com/redhat/training/carbonfootprintservice/CarbonFootprintRequest.class
+com/redhat/training/messaging/EnrichRouteBuilder.class
+com/redhat/training/messaging/HttpAggregationStrategy.class
+com/redhat/training/carbonfootprintservice/package-info.class
+com/redhat/training/messaging/GetFootprintBuilder.class
+com/redhat/training/model/Order.class

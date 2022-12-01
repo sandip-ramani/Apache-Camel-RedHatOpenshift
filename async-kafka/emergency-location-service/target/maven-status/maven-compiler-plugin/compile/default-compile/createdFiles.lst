@@ -1,0 +1,4 @@
+com/redhat/training/emergency/route/EmergencyLocationRouteBuilder.class
+com/redhat/training/emergency/model/Location.class
+com/redhat/training/emergency/Application.class
+com/redhat/training/emergency/serde/LocationDeserializer.class

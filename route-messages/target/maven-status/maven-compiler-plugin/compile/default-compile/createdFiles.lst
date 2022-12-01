@@ -1,0 +1,5 @@
+com/redhat/training/bookpublishing/route/BookPrintingPipelineRouteBuilder.class
+com/redhat/training/bookpublishing/Application.class
+com/redhat/training/bookpublishing/strategy/DynamicRoutingStrategy.class
+com/redhat/training/bookpublishing/strategy/RoutingSlipStrategy.class
+com/redhat/training/bookpublishing/route/BookReviewPipelineRouteBuilder.class

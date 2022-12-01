@@ -1,0 +1,7 @@
+com/redhat/training/messaging/OrderLogRouteBuilder.class
+com/redhat/training/messaging/Application$OrderProducer.class
+com/redhat/training/messaging/MessagingConnectionFactory.class
+com/redhat/training/messaging/AMQPRouteBuilder.class
+com/redhat/training/messaging/Application.class
+com/redhat/training/messaging/JmsRouteBuilder.class
+com/redhat/training/model/Order.class

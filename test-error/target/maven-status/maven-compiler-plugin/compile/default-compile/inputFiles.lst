@@ -1,0 +1,5 @@
+/home/student/AD221/test-error/src/main/java/com/redhat/training/payslipvalidator/processor/AmountProcessor.java
+/home/student/AD221/test-error/src/main/java/com/redhat/training/payslipvalidator/processor/WrongTotalPayslipCalculationException.java
+/home/student/AD221/test-error/src/main/java/com/redhat/training/payslipvalidator/route/PayslipValidationRouteBuilder.java
+/home/student/AD221/test-error/src/main/java/com/redhat/training/payslipvalidator/Application.java
+/home/student/AD221/test-error/src/main/java/com/redhat/training/payslipvalidator/processor/PriceProcessor.java

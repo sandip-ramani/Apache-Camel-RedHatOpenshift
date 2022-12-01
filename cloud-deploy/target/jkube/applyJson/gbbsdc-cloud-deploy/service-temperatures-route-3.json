@@ -1,0 +1,87 @@
+{
+  "apiVersion" : "v1",
+  "kind" : "Service",
+  "metadata" : {
+    "annotations" : {
+      "prometheus.io/path" : "/metrics",
+      "prometheus.io/port" : "9779",
+      "prometheus.io/scrape" : "true"
+    },
+    "creationTimestamp" : "2022-12-01T19:50:34Z",
+    "labels" : {
+      "app" : "temperatures-route",
+      "expose" : "true",
+      "group" : "com.redhat.training",
+      "provider" : "jkube",
+      "version" : "1.0-SNAPSHOT"
+    },
+    "managedFields" : [ {
+      "apiVersion" : "v1",
+      "fieldsType" : "FieldsV1",
+      "fieldsV1" : {
+        "f:metadata" : {
+          "f:annotations" : {
+            "." : { },
+            "f:prometheus.io/path" : { },
+            "f:prometheus.io/port" : { },
+            "f:prometheus.io/scrape" : { }
+          },
+          "f:labels" : {
+            "." : { },
+            "f:app" : { },
+            "f:expose" : { },
+            "f:group" : { },
+            "f:provider" : { },
+            "f:version" : { }
+          }
+        },
+        "f:spec" : {
+          "f:internalTrafficPolicy" : { },
+          "f:ports" : {
+            "." : { },
+            "k:{\"port\":8080,\"protocol\":\"TCP\"}" : {
+              "." : { },
+              "f:name" : { },
+              "f:port" : { },
+              "f:protocol" : { },
+              "f:targetPort" : { }
+            }
+          },
+          "f:selector" : { },
+          "f:sessionAffinity" : { },
+          "f:type" : { }
+        }
+      },
+      "manager" : "okhttp",
+      "operation" : "Update",
+      "time" : "2022-12-01T19:50:34Z"
+    } ],
+    "name" : "temperatures-route",
+    "namespace" : "gbbsdc-cloud-deploy",
+    "resourceVersion" : "137879729",
+    "uid" : "abf535c7-cfe9-4f05-8419-7ece37618bcf"
+  },
+  "spec" : {
+    "clusterIP" : "172.30.244.189",
+    "clusterIPs" : [ "172.30.244.189" ],
+    "ipFamilies" : [ "IPv4" ],
+    "ipFamilyPolicy" : "SingleStack",
+    "ports" : [ {
+      "name" : "http",
+      "port" : 8080,
+      "protocol" : "TCP",
+      "targetPort" : 8080
+    } ],
+    "selector" : {
+      "app" : "temperatures-route",
+      "group" : "com.redhat.training",
+      "provider" : "jkube"
+    },
+    "sessionAffinity" : "None",
+    "type" : "ClusterIP",
+    "internalTrafficPolicy" : "Cluster"
+  },
+  "status" : {
+    "loadBalancer" : { }
+  }
+}

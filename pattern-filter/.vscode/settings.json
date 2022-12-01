@@ -1,0 +1,7 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/student/.config/VSCodium/User/globalStorage/redhat.vscode-camelk/java-dependencies-3.14.1/dependencies/*.jar"
+    ]
+}

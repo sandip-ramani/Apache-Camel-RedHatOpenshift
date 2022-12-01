@@ -1,0 +1,4 @@
+/home/student/AD221/rest-http/src/test/java/com/redhat/training/messaging/SoapRouteBuilderTest.java
+/home/student/AD221/rest-http/src/test/java/com/redhat/training/messaging/EnrichRouteBuilderTest.java
+/home/student/AD221/rest-http/src/test/java/com/redhat/training/messaging/JmsRouteBuilderTest.java
+/home/student/AD221/rest-http/src/test/java/com/redhat/training/messaging/OrderLogRouteBuilderTest.java

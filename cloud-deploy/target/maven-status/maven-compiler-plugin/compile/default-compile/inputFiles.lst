@@ -1,0 +1,5 @@
+/home/student/AD221/cloud-deploy/src/main/java/com/redhat/training/TemperaturesConverter.java
+/home/student/AD221/cloud-deploy/src/main/java/com/redhat/training/health/CamelRouteHealthIndicator.java
+/home/student/AD221/cloud-deploy/src/main/java/com/redhat/training/health/RouteHealth.java
+/home/student/AD221/cloud-deploy/src/main/java/com/redhat/training/Application.java
+/home/student/AD221/cloud-deploy/src/main/java/com/redhat/training/TemperaturesRESTRouteBuilder.java

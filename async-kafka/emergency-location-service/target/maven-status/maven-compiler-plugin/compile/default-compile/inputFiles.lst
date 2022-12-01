@@ -1,0 +1,4 @@
+/home/student/AD221/async-kafka/emergency-location-service/src/main/java/com/redhat/training/emergency/model/Location.java
+/home/student/AD221/async-kafka/emergency-location-service/src/main/java/com/redhat/training/emergency/serde/LocationDeserializer.java
+/home/student/AD221/async-kafka/emergency-location-service/src/main/java/com/redhat/training/emergency/route/EmergencyLocationRouteBuilder.java
+/home/student/AD221/async-kafka/emergency-location-service/src/main/java/com/redhat/training/emergency/Application.java

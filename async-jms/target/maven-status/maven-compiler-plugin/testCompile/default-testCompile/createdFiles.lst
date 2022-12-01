@@ -1,0 +1,5 @@
+com/redhat/training/messaging/AMQPRouteBuilderTest.class
+com/redhat/training/messaging/OrderLogRouteBuilderTest.class
+com/redhat/training/messaging/JmsRouteBuilderTest$1.class
+com/redhat/training/messaging/AMQPRouteBuilderTest$1.class
+com/redhat/training/messaging/JmsRouteBuilderTest.class

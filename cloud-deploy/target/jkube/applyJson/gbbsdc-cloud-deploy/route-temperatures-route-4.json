@@ -1,0 +1,84 @@
+{
+  "apiVersion" : "route.openshift.io/v1",
+  "kind" : "Route",
+  "metadata" : {
+    "creationTimestamp" : "2022-12-01T19:50:34Z",
+    "labels" : {
+      "app" : "temperatures-route",
+      "group" : "com.redhat.training",
+      "provider" : "jkube",
+      "version" : "1.0-SNAPSHOT"
+    },
+    "managedFields" : [ {
+      "apiVersion" : "route.openshift.io/v1",
+      "fieldsType" : "FieldsV1",
+      "fieldsV1" : {
+        "f:metadata" : {
+          "f:labels" : {
+            "." : { },
+            "f:app" : { },
+            "f:group" : { },
+            "f:provider" : { },
+            "f:version" : { }
+          }
+        },
+        "f:spec" : {
+          "f:port" : {
+            "." : { },
+            "f:targetPort" : { }
+          },
+          "f:to" : {
+            "f:kind" : { },
+            "f:name" : { },
+            "f:weight" : { }
+          },
+          "f:wildcardPolicy" : { }
+        }
+      },
+      "manager" : "okhttp",
+      "operation" : "Update",
+      "time" : "2022-12-01T19:50:34Z"
+    }, {
+      "apiVersion" : "route.openshift.io/v1",
+      "fieldsType" : "FieldsV1",
+      "fieldsV1" : {
+        "f:status" : {
+          "f:ingress" : { }
+        }
+      },
+      "manager" : "openshift-router",
+      "operation" : "Update",
+      "time" : "2022-12-01T19:50:34Z",
+      "subresource" : "status"
+    } ],
+    "name" : "temperatures-route",
+    "namespace" : "gbbsdc-cloud-deploy",
+    "resourceVersion" : "137879810",
+    "uid" : "c213bf93-1ca9-4dbc-b278-93ad788b56f1"
+  },
+  "spec" : {
+    "host" : "temperatures-route-gbbsdc-cloud-deploy.apps.na410.prod.nextcle.com",
+    "port" : {
+      "targetPort" : 8080
+    },
+    "to" : {
+      "kind" : "Service",
+      "name" : "temperatures-route",
+      "weight" : 100
+    },
+    "wildcardPolicy" : "None"
+  },
+  "status" : {
+    "ingress" : [ {
+      "conditions" : [ {
+        "lastTransitionTime" : "2022-12-01T19:50:34Z",
+        "status" : "True",
+        "type" : "Admitted"
+      } ],
+      "host" : "temperatures-route-gbbsdc-cloud-deploy.apps.na410.prod.nextcle.com",
+      "routerCanonicalHostname" : "router-default.apps.na410.prod.nextcle.com",
+      "routerName" : "default",
+      "wildcardPolicy" : "None"
+    } ]
+  }
+}

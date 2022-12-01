@@ -1,0 +1,4 @@
+com/redhat/training/payments/PaymentAnalysisRouteBuilder.class
+com/redhat/training/payments/Application.class
+com/redhat/training/payments/Payment.class
+com/redhat/training/payments/PaymentFraudAnalyzer.class

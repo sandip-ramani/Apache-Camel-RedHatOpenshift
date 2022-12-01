@@ -1,0 +1,3 @@
+/home/student/AD221/async-jms/src/test/java/com/redhat/training/messaging/JmsRouteBuilderTest.java
+/home/student/AD221/async-jms/src/test/java/com/redhat/training/messaging/OrderLogRouteBuilderTest.java
+/home/student/AD221/async-jms/src/test/java/com/redhat/training/messaging/AMQPRouteBuilderTest.java

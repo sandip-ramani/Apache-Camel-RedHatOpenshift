@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: List
+items:
+- apiVersion: image.openshift.io/v1
+  kind: ImageStream
+  metadata:
+    name: temperatures-route
+  spec:
+    tags:
+    - from:
+        kind: ImageStreamImage
+        name: temperatures-route@sha256:227113fcad9afb97dba4cd80410f8fb1aa198e22481338506901f33f4cf743ce
+        namespace: gbbsdc-cloud-deploy
+      name: latest
